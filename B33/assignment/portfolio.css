@@ -1,0 +1,90 @@
+*{ 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    font-size:30 px;
+    width: 100%;
+    height:100vh;
+    background-image:url("home.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:15px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-right:45px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:15px;
+}
+nav ul li a:hover{
+    color:rgb(162, 234, 220);
+    transition:0.3s;
+}
+.content{
+    position:absolute;
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size:15px;
+    font-weight: bold;
+}
+h1 span{
+    color: brown;
+}
+.content h2:hover{
+    color:rgb(224, 139, 151);
+    background-color:rgb(53, 7, 14);
+}
+h3 span:hover{
+    color: rgb(198, 57, 83);
+}
+.main img{
+    width:35%;
+    height:50%;
+}
+.about{
+    background-image:url(home.png);
+    width:100%
+    padding: 100px 0px;
+}
+.main{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_text{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+    margin-right:100px;
+}
+.about_text h2{
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+.about_text h2{
+    font-size:15px;
+    text-transform: capitalize;
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+.about_text p{
+    font-size:12px;
+    text-transform: capitalize;
+    letter-spacing:0.5px;
+    margin-bottom:20px;
+    color: aquamarine;
+}

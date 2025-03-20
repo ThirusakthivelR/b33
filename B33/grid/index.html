@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 10vh 15vh 30vh;
+            grid-template-areas:'h h h h h '
+            'sidebar1 mainc mainc mainc sidebar2'
+            'footer footer footer footer footer';
+        }
+        .header{
+            grid-area:h;
+        }
+        .sidebar1{
+            grid-area:sidebar1;
+
+        }
+        .sidebar2{
+        grid-area:sidebar2;
+        }
+        .maincontent{
+            grid-area:mainc;
+        }
+        .footer{
+            grid-area:footer;
+        }
+
+        .container div{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="sidebar1">sidebar1</div>
+        <div class="maincontent">mainc</div>
+        <div class="sidebar2">sidebar2</div>
+        <div class="footer">footer</div>
+    </div>
+    
+</body>
+</html>
